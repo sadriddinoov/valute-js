@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <title>Valute</title>
+</head>
+<body class="bg-danger">
+    
+    <div class="container bg-info p-5 mt-2 text-center" >
+
+        <form id="formValute" action="https://echo.htmlacademy.ru/">
+
+            <h1 class="h2 text-center text-secondary mb-4">Pulingizni so`mdan boshqa valyutada tekshiring</h1>
+
+
+            <input class="p-2  text-center text-danger" type="number" name="user_valute" id="userValute" placeholder="Create the valute" required>
+
+            <select class="ms-2 p-1 me-3" name="select_value" id="selectValue">
+                <option value="10912.30">USD</option>
+                <option value="11138.18">EURO</option>
+                <option value="172.46">RUB</option>
+            </select>
+
+            <button id="selectBtn" class="btn btn-danger" type="submit">GO</button>
+
+            <p id="valute" class="mx-2"></p>
+            
+        </form>
+    </div>
+    
+    <script src="./js/main.js"></script>
+    
+</body>
+</html>
+
